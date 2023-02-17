@@ -1,0 +1,40 @@
+.main-back{
+    background-image: url('../img/rose-petals.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+.montain-back{
+    background-image: url('../img/flat-mountains\ \(1\).svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+.back-two{
+    background-image: url('../img/rainbow-vortex.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.white-back{
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+.back-one{
+    background-image: url('../img/quantum-gradient\ \(1\).svg');
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+.main-content{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 8rem var(--gap);
+}
+.section{
+    min-height: 100vh;
+}
+.menu-spacing{
+    height: 65px;
+}

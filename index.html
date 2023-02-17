@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/variaveis.css">
+        <link rel="stylesheet" href="assets/css/elements.css">
+        <link rel="stylesheet" href="assets/css/fontes.css">
+        <link rel="stylesheet" href="assets/css/classes.css">
+        <link rel="stylesheet" href="assets/css/menu.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+    </head>
+    <body class="main-back">
+        <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button"> 
+        <label class="close-menu-label" for="close-menu" title="close menu"></label>
+        <aside class="menu">
+            <div>
+            <section class="main-content menu-content">
+            <h1 class="intro-font">Portifolio</h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Inicio</a></li>
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#ling">Linguagens</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            </section>
+            </div>
+        </aside>
+        <div class="menu-spacing"></div>
+        
+        <section id="intro" class="intro main-back section">
+            <div class="main-content intro-content">
+                <div class="intro-text">
+                <h2 class="intro-font">Breno Henrique</h2>
+                <h4 class="bio-text">Vulgo: CloudZera.</h4>
+                <p>Desenvolvedor Jr.</p>
+            </div>
+                <div class="intro-img">
+                    <img src="assets/img/undraw_static_assets_rpm6.svg" alt="Logo de HTML, CSS e JS.">
+             </div>
+            </div>
+        </section>
+        <section id="bio" class="white-back section">
+            <div class="main-content bio-content">
+                <div class="bio-text">
+                <h2 class="bio-font">Biografia:</h2>
+                <p>Ola! Meu nome é Breno, tenho 20 anos, nascido em Campinas SP.<br>
+                Entrei no mundo da programação desenvolvendo Bots via Python e recentemente venho estudando outros<br>
+                tipos de linguagens como<br>
+            <br>
+            .HTML e CSS;<br>
+            <br>
+            .JavaScript;<br>
+            <br>
+            .Node.js;<br>
+            <br>
+            .TypeScript;<br>
+            <br>
+            .React.js.</p>
+            </div>
+                <div class="bio-img">
+                    <img src="assets/img/undraw_version_control_re_mg66.svg">
+                </div>
+                
+        </section> 
+        <section id="ling" class="grid-one back-two section">
+            <div class="main-content grid-one-content">    
+                <h2 class="bio-font">Linguagens Trabalhadas:</h2>
+                <div class="grid-description"></div>
+                <div class="grid">
+                    <article>
+                        <h3 class="ling-font">HTML & CSS</h3>
+                    <p class="img-one"><img src="/assets/img/icons8-css3.svg"></p>
+                    </article>
+                    <article>
+                        <h3 class="ling-font">JavaScript</h3>
+                    <p class="img-two"><img src="/assets/img/icons8-javascript.svg"></p>
+                    </article>
+                    <article>
+                        <h3 class="ling-font">Node.Js</h3>
+                    <p class="img-three"><img src="assets/img/icons8-node-js.svg"></p>    
+                    </article>
+                    <article>
+                        <h3 class="ling-font">React.Js</h3>
+                    <p class="img-four"><img src="assets/img/icons8-react.svg"></p>    
+                    </article>
+                </div>
+            </div>
+        </section> 
+        <section id="contact" class="contact-info white-back">
+            <div class="main-content grid-contact">
+                <div class="grid-two">
+                    <article>
+                        <p class="contact-logo-git"></a><img src="assets/img/icons8-github (1).svg"></p>
+                        <p class="contact-text intro-font"><a href="https://github.com/CloudZera11">Git</a></p>
+                    </article>
+                    <article>
+                        <p class="contact-logo-discord"><img src="assets/img/icons8-logo-discord.svg"></a></p>
+                        <p class="contact-text intro-font">Discord</p>
+                    </article>
+                    <article>
+                        <p class="contact-logo-instagram"><img src="assets/img/icons8-instagram (1).svg"></a></p>
+                        <p class="contact-text intro-font"><a href="https://www.instagram.com/cloudzera11/">Instagram</a></p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <footer class="footer intro-font white-back">Landing Page desenvolvida somente com HTML & CSS.</footer>
+    </body>   
+</html>
